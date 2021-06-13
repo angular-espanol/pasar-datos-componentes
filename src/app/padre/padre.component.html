@@ -1,0 +1,13 @@
+<div class="wrapper component">
+    <h5>Componente "Padre"</h5>
+    <div class="wrapper-content">
+
+        <div class="blocks ">
+            <div class="block element" *ngFor="let item of items">
+                <img [src]="item.src" alt="">
+            </div>
+        </div>
+        <!-- 😃 Componente Hijo -->
+        <app-hijo [dataIn]="items"></app-hijo>
+    </div>
+</div>
