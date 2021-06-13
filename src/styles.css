@@ -16,6 +16,12 @@ html,body{
 p, h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
+hr{
+    opacity: .2;
+}
+.text-link{
+    color: red;
+}
 
 .wrapper{
     margin: 1rem 1.5rem;
